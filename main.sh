@@ -1,7 +1,7 @@
 sudo apt update
 sudo apt upgrade
-sudo apt install libgtest-dev
-sudo apt install cmake
+sudo apt install -y libgtest-dev
+sudo apt install -y cmake
 cd /usr/src/gtest
 sudo cmake CMakeLists.txt
 sudo make
