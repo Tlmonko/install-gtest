@@ -1,5 +1,4 @@
 sudo apt update
-sudo apt upgrade
 sudo apt install -y libgtest-dev
 sudo apt install -y cmake
 cd /usr/src/gtest
